@@ -1,0 +1,26 @@
+# PeopleSoft Sentry – Python dependencies
+# Install with: pip install -r requirements.txt
+
+# --- Web framework ---
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
+# --- Frontend ---
+streamlit>=1.35.0
+
+# --- LLM (Ollama local) ---
+ollama>=0.2.1
+
+# --- Database ---
+sqlalchemy>=2.0.30
+
+# Oracle driver (optional – only needed for real Oracle connections)
+# cx_Oracle>=8.3.0        # legacy
+# oracledb>=2.0.0         # modern replacement
+
+# --- HTTP client (used by Streamlit → FastAPI calls) ---
+requests>=2.31.0
+
+# --- Utilities ---
+pydantic>=2.7.0
+python-dotenv>=1.0.1
